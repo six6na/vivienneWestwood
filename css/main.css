@@ -1,0 +1,99 @@
+main {
+    background: #fff;
+}
+
+.mainLookbook,
+.femin,
+.male
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.mainLookbook a,
+.femin a,
+.male a
+{
+    position: absolute;
+    bottom: 10px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.mainLookbook a:hover,
+.femin a:hover,
+.male a:hover
+{
+    scale: 97%;
+}
+
+.mainLookbook a svg,
+.femin a svg,
+.male a svg
+{
+    width: 90%;
+}
+
+.redBanner {
+    width: 100%;
+    height: 150px;
+    background: #C52122;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.redBanner img {
+    width: 20%;
+    margin-left: 20px;
+}
+
+.femin a,
+.male a 
+{
+    bottom: 15px;
+    text-shadow: 1px 1px 2px rgba(0,0,0, 1);
+}
+
+.whiteBanner {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background: #fff;
+}
+
+.whiteBanner img {
+    margin-left: 20px;
+}
+
+.instaSec {
+    width: 100%;
+    margin-top: 90px;
+    padding-bottom: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.instaImgWrap {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px 10px;
+}
+
+.instaImgWrap img:hover {
+    scale: 98%;
+}

@@ -1,0 +1,33 @@
+.brandTop,
+.brandBottom
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.brandBottom {
+    margin-top: 90px;
+    padding-bottom: 90px;
+}
+
+.textWrap {
+    width: 300px;
+    margin-top: 30px;
+    /* outline: 1px solid red; */
+}
+
+.textWrap p {
+    margin-bottom: 5px;
+}
+
+.brandBottom .textWrap p:nth-child(3n) {
+    margin-bottom: 20px;
+}
+
+.textWrap p:last-child,
+.brandBottom .textWrap p:last-child
+{
+    margin-bottom: 0;
+}
