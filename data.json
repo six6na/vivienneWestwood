@@ -2,6 +2,7 @@
     {
         "productName": "MINI SKILLA DRESS",
         "category": "female",
+        "type": "top",
         "price": "1,332,000",
         "image": "../images/product01.jpg"
     },
