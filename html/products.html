@@ -11,7 +11,7 @@
     <title>vivienne westwood</title>
 </head>
 <body>
-    <header class="container">
+    <header>
         <div class="header-l">
             <a href="#" class="toggleBtn">
                 <span class="top"></span>
@@ -20,7 +20,7 @@
             </a>
         </div>
         <div class="logo">
-            <a href="#"><img src="./images/vivienne logo.svg" alt=""></a>
+            <a href="../index.html"><img src="../images/vivienne logo.svg" alt=""></a>
         </div>
         <div class="header-r">
             <a href="#"><i class="bi bi-search"></i></a>
@@ -49,18 +49,18 @@
                 <a href="#">여성<i class="bi bi-chevron-right"></i></a>
                 <ul>
                     <li class="depth2">
-                        <a href="#">상의</a>
+                        <a href="products.html?category=female">전체</a>
+                    </li>
+                    <li class="depth2">
+                        <a href="products.html?type=top">상의</a>
                     </li>
                     <li class="depth2">
                         <a href="#">하의</a>
                     </li>
-                    <li class="depth2">
-                        <a href="#">반지</a>
-                    </li>
                 </ul>
             </li>
             <li class="depth1">
-                <a href="#">남성<i class="bi bi-chevron-right"></i></a>
+                <a href="products.html?category=male">남성<i class="bi bi-chevron-right"></i></a>
                 <ul>
                     <li class="depth2">
                         <a href="#">상의</a>
@@ -120,14 +120,16 @@
 
     <main class="container">
         <div class="filters">
-            <select id="category">
-                <option class="cate-value" value="all" onclick="filterProducts('all')">all</option>
-                <option class="cate-value" value="female" onclick="filterProducts('female')">female</option>
-                <option class="cate-value" value="male" onclick="filterProducts('male')">male</option>
+            <p>여성</p>
+            <select name="category" id="category">
+                <option disabled selected>전체</option>
+                <option value="category">상의</option>
+                <option value="category">하의</option>
+                <option value="category">자켓</option>
             </select>
         </div>
 
-        <div id="products">
+        <div class="products">
 
         </div>
     </main>

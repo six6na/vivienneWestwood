@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/product.css">
     <title>vivienne westwood</title>
 </head>
-<body>
-    <header class="container">
+<body id="product">
+    <header>
         <div class="header-l">
             <a href="#" class="toggleBtn">
                 <span class="top"></span>
@@ -19,7 +20,7 @@
             </a>
         </div>
         <div class="logo">
-            <a href="#"><img src="./images/vivienne logo.svg" alt=""></a>
+            <a href="#"><img src="../images/vivienne logo.svg" alt=""></a>
         </div>
         <div class="header-r">
             <a href="#"><i class="bi bi-search"></i></a>
@@ -116,7 +117,91 @@
         </ul>
     </nav>
 
-    <main class="container">main</main>
+    <main class="container">
+        <figure>
+            <img src="../images/product01.jpg" alt="">
+        </figure>
+        <div class="mainInfo">
+            <div class="colorSelect"></div>
+            <div class="rightCont">
+                <h4>MINI SKILLA DRESS</h4>
+                <p class="price">￦<span>1,332,000</span></p>
+            </div>
+        </div>
+        <div class="shopBtns">
+            <button class="buyBtn">구매하기</button>
+            <button class="wishBtn">위시리스트</button>
+        </div>
+        <div class="info">
+            <ul>
+                <li class="infoDepth1">
+                    <div class="productInfo">
+                        <p>제품설명</p> 
+                        <div class="moreToggleBtn">
+                            <span class="vertical"></span>
+                            <span class="horizontal"></span>
+                        </div>
+                    </div>
+                    <ul>
+                        <li class="infoDepth2">
+                            <p>
+                                원산지:이태리
+소재:60% Virgin Wool, 40% Cotton
+사이즈: 38, 40
+- 실측 (단위 cm)
+(40) 
+- 어깨너비 51 x 가슴너비 53 x 밑단너비 53 x 소매길이 68 x 총장 85
+
+상품설명
+- Virgin Wool 혼방 미니 스킬라 드레스
+- 시그니처 체크 패턴이 돋보이는 제품
+- 블랙 파이핑 마감 포인트
+                            </p>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="post">
+            <ul>
+                <li class="postDepth1">
+                    <div class="postInfo">
+                        <p>주문 및 배송안내</p>
+                        <div class="postToggleBtn">
+                            <span class="vertical"></span>
+                            <span class="horizontal"></span>
+                        </div>
+                    </div>
+                    <ul>
+                        <li class="postDepth2">
+                            <p>결제일 다음날부터 3일 이내 발송 (토,일 공휴일 제외)
+                                - 모든 주문건 쇼핑백을 동봉, 선물포장 요청시 리본 및 박스를 제공
+                                - 상품 재고상황에 따라 배송 기일이 다소 지연될 수도 있습니다.
+                                - 본 상품은 오프라인 매장과 동시 판매 되고 있어 주문 결제 완료 후 상품 준비 도중 매장에서 판매 완료될 경우 발송 지연 또는 품절이 될 수 있사오니 이점 양해 바랍니다.
+                                - 고객이 주문(교환 요청)한 상품이 품절 등의 사유로 인도 또는 제공을 할 수 없을 때에는 지체 없이 그 사유를 고객에게 통지하고, 3일 이내(토,일요일 및 공휴일 제외)에 환불 등의 필요한 조치를 취하겠습니다.
+                                주문 및 배송 안내에 대한 정보는 여기를 클릭하세요.</p>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="recommend">
+            <h5>추천상품</h5>
+            <div class="products">
+                <div class="product">
+                    <img src="../images/product03.jpg" alt="">
+                    <h6>CUT OFF JACKET</h6>
+                    <p>￦ 1,368,000</p>
+                </div>
+                <div class="product">
+                    <img src="../images/product09.jpg" alt="">
+                    <h6>ALPACA MUFFLER</h6>
+                    <p>￦ 678,000</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
     <footer class="container">
         <p>FIND US ON</p>
         <div class="sns-icons">
@@ -133,7 +218,8 @@
         <p class="copy">© 2018 Vivienne Westwood</p>
     </footer>
 
-    <script src="./js/jquery-3.6.0.js"></script>
-    <script src="./js/main.js"></script>
+    <script src="../js/jquery-3.6.0.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/product.js"></script>
 </body>
 </html>

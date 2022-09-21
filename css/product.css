@@ -1,0 +1,153 @@
+figure img {
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.mainInfo {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    text-align: right;
+    margin-bottom: 40px;
+}
+
+.colorSelect {
+    width: 24px;
+    height: 24px;
+    /* outline: 1px solid red; */
+}
+
+.shopBtns {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.buyBtn,
+.wishBtn 
+{
+    width: 49%;
+    padding: 10px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+.buyBtn {
+    background: #000;
+    color: #fff;
+}
+
+.wishBtn {
+    background: #fff;
+    color: #000;
+    border: 1px solid #000;
+}
+
+.productInfo,
+.postInfo
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 50px;
+}
+
+.productInfo p,
+.postInfo p
+{
+    font-weight: 500;
+}
+
+.moreToggleBtn,
+.moreToggleBtn div,
+.postToggleBtn,
+.postToggleBtn div 
+{
+    display: inline-block;
+    transition: all 0.4s;
+    box-sizing: border-box;
+}
+
+.moreToggleBtn,
+.postToggleBtn
+{
+    width: 18px;
+    height: 18px;
+    position: relative;
+}
+
+.moreToggleBtn span, 
+.postToggleBtn span 
+{
+    width: 18px;
+    height: 2px;
+    background: #000;
+    position: absolute;
+    left: 0;
+    width: 100%;
+}
+
+.moreToggleBtn .vertical, 
+.postToggleBtn .vertical
+{
+    opacity: 0;
+    rotate: 90deg;
+}
+
+.moreToggleBtn.active .vertical,
+.postToggleBtn.active .vertical
+{
+    opacity: 1;
+    transform: rotate(90deg);
+}
+
+.moreToggleBtn.active .horizontal, 
+.postToggleBtn.active .horizontal
+{
+    opacity: 1;
+    transform: rotate(90deg);
+}
+
+
+.postdepth2,
+.moredepth2
+{
+    display: block;
+    padding-bottom: 20px;
+}
+
+
+.recommend {
+    margin-top: 120px;
+    padding-bottom: 90px;
+}
+
+.products {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    /* outline: 1px solid red; */
+    width: 48%;
+}
+
+.product h6 {
+    margin-top: 5px;
+}
+
+.product p {
+    font-size: 10px;
+    color: #666;
+}

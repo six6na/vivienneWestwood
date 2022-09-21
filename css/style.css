@@ -28,15 +28,25 @@ body {
     overflow: hidden;
     background: #fff;
     width: inherit;
-    padding: 0 15px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 header {
+    width: 450px;
+    z-index: 1;
+    padding: 0 15px;
     height: 100px;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
     display: flex;
     align-items: top;
     justify-content: space-between;
+    position: fixed;
+    background: #fff;
+}
+
+main {
+    padding-top: 100px;
 }
 
 .header-r,
