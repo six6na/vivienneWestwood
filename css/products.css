@@ -1,16 +1,20 @@
 .products {
-    /* outline: 1px solid red; */
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    flex: 1 1 40%;
     justify-content: center;
     gap: 40px 15px;
     padding-bottom: 90px;
 }
 
 #product {
-    /* outline: 1px solid red; */
+    width: 45%;
     position: relative;
+}
+
+#product img {
+    width: 100%;
 }
 
 .like {
@@ -18,22 +22,26 @@
     background: none;
     border: none;
     position: absolute;
-    right: 10px;
-    bottom: 40px;
-    /* outline: 1px solid orange; */
+    right: 5px;
+    top: 5px;
 }
 
 .bi-heart, 
 .bi-heart-fill.on
 {
     display: block;
-    /* outline: 1px solid blue; */
 }
 
 .bi-heart.on,
 .bi-heart-fill
 {
     display: none;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
 }
 
 .title {

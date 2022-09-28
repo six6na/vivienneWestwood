@@ -1,51 +1,74 @@
 [
     {
-        "productName": "MINI SKILLA DRESS",
+        "productName": "미니 스킬라 드레스",
         "category": "female",
-        "type": "top",
-        "price": "1,332,000",
+        "price": "1,480,000",
         "image": "../images/product01.jpg"
     },
     {
-        "productName": "MINI SKILLA DRESS",
+        "productName": "플리츠 스커트",
         "category": "female",
-        "price": "1,332,000",
+        "price": "1,130,000",
         "image": "../images/product02.jpg"
     },
     {
-        "productName": "MINI SKILLA DRESS",
+        "productName": "루루 스펜서 자켓",
         "category": "male",
-        "price": "1,332,000",
+        "price": "1,430,000",
         "image": "../images/product03.jpg"
     },
     {
-        "productName": "MINI SKILLA DRESS",
+        "productName": "조지 트라우저",
         "category": "male",
-        "price": "1,332,000",
+        "price": "1,030,000",
         "image": "../images/product04.jpg"
     },
     {
-        "productName": "MINI SKILLA DRESS",
+        "productName": "컷 오프 스커트",
         "category": "female",
-        "price": "1,332,000",
+        "price": "1,130,000",
         "image": "../images/product05.jpg"
     },
     {
-        "productName": "MINI SKILLA DRESS",
+        "productName": "카밀라 자켓",
         "category": "female",
-        "price": "1,332,000",
+        "price": "1,780,000",
         "image": "../images/product06.jpg"
     },
     {
-        "productName": "MINI SKILLA DRESS",
+        "productName": "I AM EXPENSIV 토트",
         "category": "male",
         "price": "1,332,000",
         "image": "../images/product07.jpg"
     },
     {
-        "productName": "MINI SKILLA DRESS",
+        "productName": "I AM EXPENSIV 파우치",
         "category": "male",
         "price": "1,332,000",
         "image": "../images/product08.jpg"
+    },
+    {
+        "productName": "엠브로이더드 램스울 머플러",
+        "category": "male",
+        "price": "280,000",
+        "image": "../images/product09.jpg"
+    },
+    {
+        "productName": "엠브로이더드 램스울 머플러",
+        "category": "male",
+        "price": "280,000",
+        "image": "../images/product10.jpg"
+    },
+    {
+        "productName": "사피아노 슬림 카드지갑",
+        "category": "male",
+        "price": "230,000",
+        "image": "../images/product11.jpg"
+    },
+    {
+        "productName": "사피아노 오브 빌폴드 지갑",
+        "category": "male",
+        "price": "330,000",
+        "image": "../images/product12.jpg"
     }
 ]
