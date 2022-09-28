@@ -6,6 +6,12 @@
         "image": "../images/product01.jpg"
     },
     {
+        "productName": "미니 스킬라 드레스",
+        "category": "top",
+        "price": "1,480,000",
+        "image": "../images/product01.jpg"
+    },
+    {
         "productName": "플리츠 스커트",
         "category": "female",
         "price": "1,130,000",
@@ -14,6 +20,12 @@
     {
         "productName": "루루 스펜서 자켓",
         "category": "female",
+        "price": "1,430,000",
+        "image": "../images/product03.jpg"
+    },
+    {
+        "productName": "루루 스펜서 자켓",
+        "category": "top",
         "price": "1,430,000",
         "image": "../images/product03.jpg"
     },
@@ -32,6 +44,12 @@
     {
         "productName": "카밀라 자켓",
         "category": "female",
+        "price": "1,780,000",
+        "image": "../images/product06.jpg"
+    },
+    {
+        "productName": "카밀라 자켓",
+        "category": "top",
         "price": "1,780,000",
         "image": "../images/product06.jpg"
     },
