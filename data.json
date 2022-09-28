@@ -13,13 +13,13 @@
     },
     {
         "productName": "루루 스펜서 자켓",
-        "category": "male",
+        "category": "female",
         "price": "1,430,000",
         "image": "../images/product03.jpg"
     },
     {
         "productName": "조지 트라우저",
-        "category": "male",
+        "category": "female",
         "price": "1,030,000",
         "image": "../images/product04.jpg"
     },
